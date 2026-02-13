@@ -4,7 +4,11 @@
 
 ## 🔍 **Project Overview**
 
-This project analyzes Adidas USA sales data (2020–2021) using Microsoft Excel to evaluate regional performance, product profitability, and target achievement. The objective was to clean raw sales data and build an interactive dashboard for business performance tracking.
+This project analyzes Adidas USA sales data (2020–2021) using Microsoft Excel to evaluate regional performance, product profitability, and target achievement.
+
+To gain deeper insights, I integrated 2024 U.S. state population data to calculate a normalized metric (Sales Per Capita) for market penetration analysis.
+
+The final output is an interactive and refreshable Excel dashboard.
 
 ---
 
@@ -14,7 +18,7 @@ This project analyzes Adidas USA sales data (2020–2021) using Microsoft Excel 
 * Analyze regional and product-level performance
 * Compare Target vs Actual revenue
 * Calculate Sales Per Capita using population data
-* Build an interactive and refreshable Excel dashboard
+* Build an interactive dashboard for KPI tracking
 
 ---
 
@@ -25,6 +29,15 @@ This project analyzes Adidas USA sales data (2020–2021) using Microsoft Excel 
 * Pivot Tables – Aggregation and KPI calculation
 * Formulas Used -  XLOOKUP, IFS, Percentage calculations
 * Slicers & Timeline Filters – Interactive dashboard filtering
+
+---
+
+## 📊 Data Preparation
+
+* Removed duplicates and handled missing values
+* Standardized column formats
+* Merged sales dataset with 2024 state population data
+* Created calculated fields such as Sales Per Capita
 
 ---
 
@@ -62,4 +75,5 @@ The project is contained within a single, highly-structured Excel Workbook. To m
 ## 🏁 **Conclusion**
 
 This project demonstrates how Microsoft Excel can be used as a structured reporting and analytics tool. By combining data cleaning, aggregation, and interactive visualization, the dashboard provides meaningful business insights to support performance monitoring.
+
 
